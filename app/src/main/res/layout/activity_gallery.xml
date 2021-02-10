@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="70"
+        android:id="@+id/image"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/image_description"
+        android:layout_width="156dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="20dp"
+        android:text="Canada"
+        android:textColor="#000"
+        android:textSize="20sp" />
+
+</LinearLayout>
